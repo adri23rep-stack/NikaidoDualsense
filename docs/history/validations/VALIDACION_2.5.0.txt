@@ -1,0 +1,14 @@
+Nikaido DualSense 2.5.0
+=======================
+
+Suite automatizada: 207 passed
+Compilación Python: OK
+Auto-prueba 2.5: OK
+Qt offscreen smoke: OK
+Pantallas: AutoProfilesPage, CompatibilityPage, VibrationPage
+
+Pendiente en hardware Windows:
+- DualSense USB/Bluetooth
+- ViGEmBus feedback Xbox 360/DS4
+- HidHide real
+- EXE e instalador Inno Setup

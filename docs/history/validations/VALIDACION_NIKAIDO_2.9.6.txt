@@ -1,0 +1,30 @@
+NIKAIDO DUALSENSE 2.9.6 — VALIDACIÓN DE MUTE GLOBAL
+
+RESULTADO PRINCIPAL
+- pytest: 401 aprobadas, 1 omitida por falta de PySide6 en Linux.
+- Cinco rondas consecutivas del archivo test_audio_manager_295.py: aprobadas.
+- python -m compileall -q .: aprobado.
+- ruff check .: aprobado.
+- bandit -q -r src gui main.py -ll: sin hallazgos medios o graves.
+
+AUTOPRUEBAS
+- tools/nikaido_25_selftest.py: aprobado; versión 2.9.6.
+- tools/gyro_report_selftest.py: aprobado.
+- tools/test_touchpad_multizone.py: aprobado.
+- tools/test_ui_theme.py: 10/10 aprobadas.
+
+CASOS NUEVOS CUBIERTOS
+- Mute de todos los micrófonos activos.
+- Restauración individual de estados anteriores.
+- Exclusión del micrófono DualSense / Wireless Controller.
+- LED naranja sin silenciar físicamente el DualSense en modo de exclusión.
+- Estado parcial y conteo de endpoints.
+- Micrófono conectado durante una sesión global.
+- Endpoint reactivado externamente durante una sesión global.
+- Cambio de perfil/alcance con restauración previa.
+- Dispositivo eliminado durante la restauración sin fallback peligroso.
+- Enumeración sin micrófono predeterminado de Windows.
+- target_mode conservado dentro de perfiles .Nika.
+
+LIMITACIÓN
+- No hay Windows, Core Audio real, ViGEm ni DualSense físico en este entorno.

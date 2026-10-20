@@ -1,0 +1,66 @@
+Nikaido DualSense 3.0.0 Alpha 2.2.2
+Lista exacta de diferencias frente a Alpha 2.2.1
+
+Archivos añadidos (9)
+- BUILD_VHF_ALPHA222.bat
+- CHECK_VHF_ALPHA222_ENVIRONMENT.bat
+- PREPARE_VHF_ALPHA222_PACKAGE.bat
+- docs/virtual_hid_alpha222/DIAGNOSIS_AND_PLAN_ALPHA222.md
+- docs/virtual_hid_alpha222/FILES_CHANGED_ALPHA222.txt
+- docs/virtual_hid_alpha222/HASH_BUILD_RECORD_ALPHA222.md
+- docs/virtual_hid_alpha222/PRIVACY_AUDIT_ALPHA222.json
+- docs/virtual_hid_alpha222/VALIDATION_ALPHA222.md
+- tests/test_driver_package_alpha222.py
+
+Archivos modificados (39)
+- BUILD_VHF_ALPHA2.bat
+- BUILD_VHF_ALPHA21.bat
+- BUILD_VHF_ALPHA211.bat
+- BUILD_VHF_ALPHA212.bat
+- BUILD_VHF_ALPHA213.bat
+- BUILD_VHF_ALPHA214.bat
+- BUILD_VHF_ALPHA215.bat
+- BUILD_VHF_ALPHA22.bat
+- BUILD_VHF_ALPHA221.bat
+- CHECK_VHF_ALPHA2_ENVIRONMENT.bat
+- CHECK_VHF_ALPHA21_ENVIRONMENT.bat
+- CHECK_VHF_ALPHA211_ENVIRONMENT.bat
+- CHECK_VHF_ALPHA212_ENVIRONMENT.bat
+- CHECK_VHF_ALPHA213_ENVIRONMENT.bat
+- CHECK_VHF_ALPHA214_ENVIRONMENT.bat
+- CHECK_VHF_ALPHA215_ENVIRONMENT.bat
+- CHECK_VHF_ALPHA22_ENVIRONMENT.bat
+- CHECK_VHF_ALPHA221_ENVIRONMENT.bat
+- INICIAR_VIRTUAL_DUALSENSE_LAB.bat
+- PREPARE_VHF_ALPHA22_PACKAGE.bat
+- PREPARE_VHF_ALPHA221_PACKAGE.bat
+- README_VIRTUAL_DUALSENSE_LAB.md
+- VIRTUAL_DUALSENSE_LAB_MANIFEST.json
+- VIRTUAL_DUALSENSE_LAB_PROJECT.json
+- native/vhf/README.md
+- native/vhf/client/main.cpp
+- native/vhf/driver/NikaidoVirtualHid.inf
+- native/vhf/tools/check_vs2026_wdk.py
+- native/vhf/tools/package_driver.py
+- requirements-lab.txt
+- tests/test_virtual_dualsense_lab_alpha1.py
+- tests/test_virtual_hid_alpha2_source.py
+- tests/test_vs2026_toolchain_alpha21.py
+- virtual_dualsense_lab/__init__.py
+- virtual_dualsense_lab/cli.py
+- virtual_dualsense_lab/diagnostics.py
+- virtual_dualsense_lab/hid_report.py
+- virtual_dualsense_lab/native.py
+- virtual_dualsense_lab/version.py
+
+Archivos retirados (1)
+- tests/test_driver_package_alpha221.py
+
+El archivo retirado fue renombrado a test_driver_package_alpha222.py y ampliado
+con regresiones para el registro por hashes; no se eliminó cobertura. No se
+eliminó, simplificó ni desactivó ninguna función estable. Los wrappers antiguos
+se conservan y redirigen a Alpha 2.2.2.
+
+Producto: Nikaido DualSense
+Publisher: Team Nikaido
+Copyright: © Team Nikaido

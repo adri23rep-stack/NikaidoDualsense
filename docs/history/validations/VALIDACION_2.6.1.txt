@@ -1,0 +1,27 @@
+NIKAIDO DUALSENSE 2.6.1 — VALIDACIÓN DASHBOARD
+================================================
+
+[OK] Versión Python: 2.6.1
+[OK] Versión pyproject: 2.6.1
+[OK] Versión Inno Setup: 2.6.1
+[OK] Imagen personalizada del perfil activo cargada desde image_path
+[OK] Respaldo seguro al icono/emoji si la imagen no existe o falla
+[OK] Dashboard inicia únicamente con Nikaido Nexus
+[OK] Botón ＋ con menú de secciones disponibles
+[OK] Pestañas favoritas removibles con ×
+[OK] Nikaido Nexus sin botón de cierre y protegido contra cierre por índice
+[OK] Favoritos guardados en settings.dashboard.favorite_tabs
+[OK] Configuraciones 2.6.0 migran con lista vacía de favoritos
+[OK] 275 pruebas aprobadas
+[OK] Compilación de fuentes correcta
+[OK] SOURCE_MANIFEST.json verificado por ruta, tamaño y SHA-256
+[INFO] Ruff y Bandit no están instalados en este entorno; la base 2.6.0 los aprobó antes del hotfix
+
+PENDIENTE EN WINDOWS
+--------------------
+[ ] Apertura real con PySide6
+[ ] Ver imagen custom en la tarjeta Perfil activo
+[ ] Abrir el menú ＋ y agregar varias pestañas
+[ ] Cerrar favoritas con × y confirmar que Nexus no se pueda quitar
+[ ] Reiniciar Nikaido y confirmar que los favoritos regresen
+[ ] Compilar PyInstaller/Inno Setup

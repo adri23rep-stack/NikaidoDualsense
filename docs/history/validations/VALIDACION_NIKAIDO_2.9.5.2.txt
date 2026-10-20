@@ -1,0 +1,30 @@
+NIKAIDO DUALSENSE 2.9.5.2 — HOTFIX DE DEPENDENCIAS
+====================================================
+
+CAUSA
+- Rango anterior: pycaw>=20251023,<2027.
+- Pycaw usa la versión de fecha 20251023.
+- 20251023 es mayor que 2027; el conjunto de versiones permitido era vacío.
+
+CORRECCIÓN
+- Nuevo requisito: pycaw==20251023; platform_system == "Windows".
+- comtypes se conserva como dependencia explícita de Windows.
+- install.bat y REPARAR_GUI_Y_AUDIO.bat consumen requirements.txt.
+- Versión actualizada a 2.9.5.2.
+
+PRUEBAS
+- Suite completa: 385 passed, 1 skipped.
+- El único skip requiere PySide6 en el sistema de validación Linux.
+- Prueba específica de dependencias: 4 passed.
+- La versión 20251023 satisface el pin de pycaw.
+- Todos los rangos simples de ejecución aceptan su mínimo o pin exacto.
+- Marcador de pycaw: activo en Windows e inactivo en Linux.
+- compileall: APROBADO.
+- Ruff: APROBADO.
+- Auto-prueba de perfiles, rumble, mouse y versión: APROBADA.
+- Reporte DS4 extendido: APROBADO.
+- Touchpad multizona: APROBADO.
+- Bandit: 0 problemas medios, 0 graves y 48 avisos bajos ya existentes.
+
+LIMITACIÓN
+- Core Audio y el DualSense físico requieren la validación final en Windows.

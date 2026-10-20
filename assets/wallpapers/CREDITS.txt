@@ -1,0 +1,20 @@
+Fondos incluidos con Nikaido
+============================
+
+Fuente: "Landsat Wallpapers" de Leonardo Uieda
+  https://github.com/leouieda/landsat-wallpapers
+  (el proyecto se mudó a https://codeberg.org/leouieda/landsat-wallpapers)
+
+Los datos originales son imágenes Landsat del USGS, de dominio público. Los
+composites fueron generados por el autor con xlandsat y se distribuyen bajo
+CC0 1.0 (ver LICENSE-CC0.txt). No se exige atribución; se acredita por cortesía.
+
+Cambios hechos por Nikaido: reducción de 3840x2160 a 2560x1440, recompresión
+JPEG y miniaturas de 480x270 (carpeta thumbs/). Nombres de archivo en ASCII.
+
+  roraima.jpg       Monte Roraima
+  amazon-delta.jpg  Delta del Amazonas
+  vale-do-pati.jpg  Valle del Pati
+  villarrica.jpg    Volcán Villarrica
+  lencois.jpg       Lençóis Maranhenses
+  neuquen.jpg       Neuquén

@@ -1,0 +1,24 @@
+Nikaido DualSense 2.5.3
+Hotfix: cursor infinito para Mouse → Stick y Mouse → Gyro
+
+Pruebas automatizadas: 222 aprobadas
+Compilación Python: correcta
+Auto-prueba interna: correcta
+Recentrado y filtro de movimiento artificial: correctos
+Apagado global Ctrl + M: correcto
+Sincronización KeyBridge/Gyro y guardado: correctos
+Versión de aplicación/paquete/instalador: 2.5.3
+
+Comportamiento implementado:
+- El cursor se centra en el monitor de la ventana activa.
+- Raw Input conserva movimiento relativo continuo.
+- Hook/sondeo ignoran únicamente el recentrado artificial.
+- Ctrl + M libera y restaura el cursor.
+- KeyBridge conserva teclado y apaga solo Mouse → Stick.
+- Mouse → Gyro se apaga sin desactivar el gyro físico.
+
+Pendiente de validación física:
+- Windows con mouse real y uno o varios monitores
+- Pantalla completa y modo ventana
+- Stick derecho virtual mediante ViGEm
+- IMU de DS4 virtual mediante Mouse → Gyro

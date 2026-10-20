@@ -1,0 +1,33 @@
+NIKAIDO DUALSENSE 2.9.0 — VALIDACIÓN CURVAS E IDIOMAS
+====================================================
+
+[OK] Versión Python: 2.9.0
+[OK] Versión pyproject: 2.9.0
+[OK] Versión Inno Setup: 2.9.0
+[OK] Onboarding version: 5
+[OK] Curva Lineal actualiza la gráfica
+[OK] Curva Exponencial usa y = x²
+[OK] Curva Agresiva usa y = √x
+[OK] Curva Personalizada conserva puntos editables
+[OK] La gráfica ya no se deshabilita con presets
+[OK] Selector de idioma en wizard
+[OK] Selector de idioma en Ajustes
+[OK] Español disponible
+[OK] English disponible
+[OK] Português (Brasil) disponible
+[OK] Cambio de idioma sin reinicio
+[OK] Persistencia en settings.language
+[OK] Páginas bajo demanda reciben el idioma activo
+[OK] PyInstaller incluye gui.i18n y gui.curve_editor
+[OK] 302 pruebas aprobadas
+[OK] compileall correcto
+
+PRUEBA MANUAL RECOMENDADA EN WINDOWS
+-----------------------------------
+[ ] Cambiar cada preset de curva y revisar la forma visual
+[ ] Arrastrar los puntos de Personalizada
+[ ] Guardar, cambiar de palanca y regresar
+[ ] Cambiar idioma desde el wizard
+[ ] Cambiar idioma desde Ajustes
+[ ] Reiniciar y confirmar persistencia
+[ ] Revisar textos largos a 1080p y escalado 125/150%

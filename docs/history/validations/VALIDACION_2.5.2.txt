@@ -1,0 +1,14 @@
+Nikaido DualSense 2.5.2
+Hotfix: captura de mouse para KeyBridge y Mouse → Gyro
+
+Pruebas automatizadas: 215 aprobadas
+Compilación Python: correcta
+Auto-prueba interna: correcta
+Ruta de deltas del mouse: correcta
+Versión de aplicación/paquete/instalador: 2.5.2
+
+Pendiente de validación física:
+- Raw Input en Windows con mouse real
+- Stick derecho virtual mediante ViGEm
+- IMU de DS4 virtual mediante Mouse → Gyro
+- Comportamiento dentro de juegos con cursor bloqueado

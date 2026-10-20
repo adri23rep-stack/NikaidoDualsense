@@ -1,0 +1,67 @@
+Nikaido DualSense 3.0.0 Alpha 2.2.1
+Inf2Cat Compatible Tool Discovery
+
+Comparación: Alpha 2.2 inmutable -> Alpha 2.2.1
+
+Leyenda:
+A = añadido
+M = modificado
+D = eliminado por cambio de nombre
+
+A  BUILD_VHF_ALPHA221.bat
+A  CHECK_VHF_ALPHA221_ENVIRONMENT.bat
+A  PREPARE_VHF_ALPHA221_PACKAGE.bat
+A  docs/virtual_hid_alpha221/DIAGNOSIS_AND_PLAN_ALPHA221.md
+A  docs/virtual_hid_alpha221/FILES_CHANGED_ALPHA221.txt
+A  docs/virtual_hid_alpha221/PACKAGE_READINESS_ALPHA221.md
+A  docs/virtual_hid_alpha221/PRIVACY_AUDIT_ALPHA221.json
+A  docs/virtual_hid_alpha221/VALIDATION_ALPHA221.md
+A  tests/test_driver_package_alpha221.py
+
+D  tests/test_driver_package_alpha22.py
+
+M  BUILD_VHF_ALPHA2.bat
+M  BUILD_VHF_ALPHA21.bat
+M  BUILD_VHF_ALPHA211.bat
+M  BUILD_VHF_ALPHA212.bat
+M  BUILD_VHF_ALPHA213.bat
+M  BUILD_VHF_ALPHA214.bat
+M  BUILD_VHF_ALPHA215.bat
+M  BUILD_VHF_ALPHA22.bat
+M  CHECK_VHF_ALPHA2_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA21_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA211_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA212_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA213_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA214_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA215_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA22_ENVIRONMENT.bat
+M  INICIAR_VIRTUAL_DUALSENSE_LAB.bat
+M  PREPARE_VHF_ALPHA22_PACKAGE.bat
+M  README_VIRTUAL_DUALSENSE_LAB.md
+M  VIRTUAL_DUALSENSE_LAB_MANIFEST.json
+M  VIRTUAL_DUALSENSE_LAB_PROJECT.json
+M  native/vhf/README.md
+M  native/vhf/client/main.cpp
+M  native/vhf/driver/NikaidoVirtualHid.inf
+M  native/vhf/tools/check_vs2026_wdk.py
+M  native/vhf/tools/package_driver.py
+M  requirements-lab.txt
+M  tests/test_virtual_dualsense_lab_alpha1.py
+M  tests/test_virtual_hid_alpha2_source.py
+M  tests/test_vs2026_toolchain_alpha21.py
+M  virtual_dualsense_lab/__init__.py
+M  virtual_dualsense_lab/cli.py
+M  virtual_dualsense_lab/diagnostics.py
+M  virtual_dualsense_lab/hid_report.py
+M  virtual_dualsense_lab/native.py
+M  virtual_dualsense_lab/version.py
+
+El archivo de pruebas Alpha 2.2 se renombró a Alpha 2.2.1 y se amplió; no se
+eliminó cobertura. No se modificaron driver.c, nikaido_vhf_protocol.h, los
+sistemas de emulación estables ni ningún archivo protegido por
+SOURCE_MANIFEST.json.
+
+Producto: Nikaido DualSense
+Publisher: Team Nikaido
+Copyright: © Team Nikaido

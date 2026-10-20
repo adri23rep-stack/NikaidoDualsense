@@ -1,0 +1,31 @@
+NIKAIDO DUALSENSE 2.5.6 — VALIDACIÓN DE SEGURIDAD
+Fecha: 12 de julio de 2026
+
+[OK] Versión consistente: 2.5.6
+[OK] SOURCE_MANIFEST.json: ruta, tamaño y SHA-256 verificados
+[OK] Compilación Python: main.py, nikaido_version.py, src, gui y tests
+[OK] Pytest: 263 pruebas aprobadas
+[OK] Ruff crítico: sin errores E9, F63, F7, F82 ni F841
+[OK] Bandit (main.py/src/gui): 0 hallazgos altos y 0 medios
+[OK] Bandit (repositorio completo): 0 hallazgos altos y 0 medios
+[OK] AST: sin llamadas al builtin eval/exec, os.system, pickle, yaml.load,
+     ZipFile.extractall ni subprocess con shell=True
+[OK] Instalador normal: por usuario, PrivilegesRequired=lowest
+[OK] CI: permisos contents:read, timeout y pip-audit en Windows
+[OK] Paquetes .Nika/temas: traversal, ADS, nombres reservados, duplicados,
+     cifrado, ZIP bombs, JSON abusivo e imágenes gigantes cubiertos por pruebas
+[OK] HidHide: sin PATH/HKCU/winget ejecutable; solo Program Files + URL oficial
+[OK] Bluetooth: sin borrado global de BTHPORT y con PowerShell del sistema
+[OK] Reportes/logs: rutas privadas y caracteres de control sanitizados
+
+NO EJECUTADO EN ESTE ENTORNO
+- Auto-prueba HID: Linux no tiene backends HID/Win32 ni drivers de Windows.
+- pip-audit en vivo: el entorno no pudo resolver PyPI por falta de red.
+  El flujo CI queda configurado para ejecutarlo en Windows con Internet.
+- Pruebas físicas: DualSense USB/Bluetooth, ViGEm, HidHide, servicio Bluetooth,
+  instalador Inno Setup y pantalla completa exclusiva.
+
+RIESGOS PENDIENTES CONOCIDOS
+- Los binarios todavía no tienen firma Authenticode.
+- No existe un canal de actualización firmado.
+- ViGEm/HidHide son drivers externos y deben instalarse desde fuentes oficiales.

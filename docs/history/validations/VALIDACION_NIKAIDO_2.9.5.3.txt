@@ -1,0 +1,23 @@
+Nikaido DualSense 2.9.5.3 - Validación del hotfix de runtime
+================================================================
+
+Suite completa:
+- 392 pruebas aprobadas
+- 1 prueba visual omitida porque PySide6 no está instalado en el host Linux
+  de validación; la GUI no fue modificada por este hotfix.
+
+Pruebas nuevas:
+- Python global de Windows selecciona .venv\Scripts\python.exe
+- Proceso ya ejecutado desde .venv no se reinicia
+- Argumentos --minimized/--profile se conservan al relanzar
+- Marcador de protección evita bucles de relanzamiento
+- Bootstrap ocurre antes de cargar módulos normales de la aplicación
+- INICIAR_NIKAIDO.bat usa el runtime local y contiene reparación sin caché
+- Error de audio incluye sys.executable e INICIAR_NIKAIDO.bat
+
+Comprobaciones adicionales:
+- Ruff: aprobado, 0 errores
+- compileall: aprobado para main.py, src, gui y tests
+- Requisitos de pycaw/comtypes: rangos válidos
+- Imports de apariencia de GUI: contrato conservado
+- Fuente del ZIP: sin .venv, __pycache__, .pytest_cache ni .ruff_cache

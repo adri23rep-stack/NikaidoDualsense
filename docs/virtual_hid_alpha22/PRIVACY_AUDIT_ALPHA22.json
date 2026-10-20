@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "product": "Nikaido DualSense",
+  "publisher": "Team Nikaido",
+  "copyright": "© Team Nikaido",
+  "version": "3.0.0-alpha.2.2",
+  "result": "passed",
+  "files_scanned": 512,
+  "archives_scanned": 0,
+  "blocking_findings": 0,
+  "native_metadata_warnings": 0,
+  "strict_third_party": false,
+  "policy": {
+    "environment_terms": "blocking",
+    "owned_file_user_paths": "blocking",
+    "foreign_native_build_metadata": "warning",
+    "values_redacted": true
+  },
+  "notes": [
+    "No se incorporaron rutas, nombres de usuario, hostname ni logs privados.",
+    "La evidencia de Windows conserva únicamente estados, conteos y códigos de error.",
+    "El preparador sanitiza la salida de InfVerif e Inf2Cat antes de mostrarla.",
+    "Los manifiestos generados no contienen rutas absolutas o identificadores del equipo.",
+    "La distribución fuente no incluye binarios, catálogos, certificados ni resultados de WDK.",
+    "El ZIP se audita por separado después de generarlo."
+  ],
+  "findings": []
+}

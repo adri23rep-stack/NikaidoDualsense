@@ -1,0 +1,45 @@
+NIKAIDO DUALSENSE 2.9.5 — VALIDACIÓN DE CONTROL DE MICRÓFONO
+Fecha: 2026-07-13
+
+RESULTADO GENERAL
+- Estado: APROBADO en pruebas portables del entorno disponible.
+- pytest: 378 pruebas aprobadas.
+- Ruff: sin errores.
+- compileall: todos los módulos Python compilaron correctamente.
+- Bandit (-ll): 0 problemas de severidad media o alta.
+
+PRUEBAS ESPECÍFICAS DE AUDIO
+- Una pulsación del botón MIC genera un solo cambio de mute.
+- Mantener el botón presionado no repite la acción.
+- Un cambio de mute hecho desde Windows vuelve al LED naranja.
+- La configuración de audio se conserva por perfil y en paquetes .Nika.
+- Cambiar opciones del perfil activo no reaplica mute/volumen accidentalmente.
+- Un micrófono desconectado usa temporalmente el predeterminado sin borrar el ID guardado.
+- La compatibilidad con el objeto COM devuelto por pycaw actual está cubierta.
+- Los objetos COM se liberan antes de CoUninitialize.
+- Un cierre durante una inicialización lenta de Core Audio no puede reactivar el LED ni el trabajador.
+- Los fallos al escribir el LED se reintentan y no se guardan como éxito falso.
+
+AUTO-PRUEBAS PORTABLES
+- gyro_report_selftest.py: APROBADO.
+- nikaido_25_selftest.py: APROBADO; versión detectada 2.9.5.
+- test_touchpad_multizone.py: APROBADO.
+- test_ui_theme.py: 10 de 10 pruebas aprobadas.
+
+LIMITACIONES DEL ENTORNO
+- El entorno de auditoría es Linux y no tiene PySide6 instalado.
+- La ventana completa no pudo abrirse con smoke_test_ui_studio.py por ausencia de PySide6.
+- No se conectó un DualSense físico ni un micrófono real.
+- No se probaron Core Audio, pycaw, USB/Bluetooth, ViGEm ni el ejecutable compilado directamente en Windows.
+- La lógica de Windows y los estados concurrentes se validaron con dobles de prueba y simulaciones controladas.
+
+VALIDACIÓN RECOMENDADA EN WINDOWS
+1. Abrir Audio y elegir Predeterminado de Windows.
+2. Presionar MIC una vez: el endpoint debe quedar silenciado y el LED naranja encendido.
+3. Mantener MIC: no debe alternar repetidamente.
+4. Presionar otra vez: el endpoint debe activarse y el LED apagarse.
+5. Cambiar el mute desde Configuración de Windows: el LED debe seguirlo.
+6. Seleccionar otro micrófono, cambiar de perfil y confirmar que cada perfil conserva su selección.
+7. Desconectar el micrófono elegido: Nikaido debe usar el predeterminado y conservar la selección original.
+8. Probar por USB y Bluetooth; confirmar qué dispositivos de audio expone Windows en cada modo.
+9. Cerrar Nikaido mientras cambia de dispositivo y confirmar que el LED queda apagado.

@@ -1,0 +1,116 @@
+NIKAIDO DUALSENSE — ACUERDO DE LICENCIA DE USUARIO FINAL (EULA)
+Versión 1.0 — 13 de julio de 2026
+
+IMPORTANTE: LEA ESTE ACUERDO ANTES DE INSTALAR O USAR NIKAIDO DUALSENSE.
+Al instalar, iniciar, comprar o usar el software, usted acepta este acuerdo.
+Si no está de acuerdo, no instale ni utilice el software.
+
+1. TITULAR Y PRODUCTO
+Nikaido DualSense (el “Software”) es software propietario publicado bajo el nombre
+de proyecto Nikaido. El titular legal de los derechos se identifica al final
+de este acuerdo (el “Titular”). Nikaido es el nombre público del proyecto y no se presenta
+como una sociedad mercantil ni como una marca registrada.
+
+2. PROPIEDAD
+El Software se licencia; no se vende. El Titular conserva todos los derechos
+sobre el código, ejecutables, interfaz, documentación, logotipos, personajes,
+sprites, diseños, textos y demás recursos originales. La compra o descarga no
+transfiere la propiedad intelectual.
+
+3. LICENCIA CONCEDIDA
+Mientras cumpla este acuerdo, el Titular le concede una licencia personal,
+limitada, revocable, no exclusiva, no sublicenciable e intransferible para
+instalar y usar una copia autorizada del Software en dispositivos que le
+pertenezcan o estén bajo su control, conforme a la edición adquirida y a las
+condiciones del canal oficial de distribución.
+
+Puede crear una copia de respaldo exclusivamente para uso personal y de
+recuperación. Esa copia queda sujeta a este mismo acuerdo y no puede compartirse.
+
+4. EDICIÓN DEMO O DE EVALUACIÓN
+La edición Demo se proporciona únicamente para evaluar el Software antes de una
+compra. Puede incluir límites de funciones, tiempo, perfiles, dispositivos o
+actualizaciones. No puede alterarse para eliminar esos límites ni utilizarse para
+crear, desbloquear o simular una edición completa.
+
+5. EDICIÓN COMPLETA O DE PAGO
+La edición completa concede el derecho de uso personal descrito en la sección 3.
+La compra no concede derechos de redistribución, reventa, publicación, alquiler,
+sublicencia, alojamiento de descargas ni acceso al código fuente. Las compras,
+reembolsos y activaciones también pueden estar sujetos a las condiciones del
+vendedor o plataforma oficial y a la legislación de protección al consumidor.
+
+6. CONDUCTAS PROHIBIDAS
+Salvo autorización previa y escrita del Titular, usted no puede:
+
+a) copiar o redistribuir el instalador, versión portátil, ejecutables o archivos;
+b) subir el Software a repositorios, nubes públicas, páginas, torrents o tiendas;
+c) vender, alquilar, prestar, regalar, sublicenciar o transferir una copia;
+d) modificar, traducir, adaptar o crear obras derivadas del Software;
+e) extraer, reutilizar o redistribuir sprites, imágenes, iconos, diseños o textos;
+f) eliminar, alterar u ocultar avisos de autoría, licencia o procedencia;
+g) eludir límites de la Demo, activaciones, verificaciones o controles de acceso;
+h) realizar ingeniería inversa, descompilar o desensamblar el Software.
+
+La prohibición del inciso h) no se aplica cuando una ley obligatoria permita esa
+actividad ni cuando sea necesario ejercer derechos concedidos por la licencia de
+un componente de terceros. En esos casos, la actividad debe limitarse a lo
+estrictamente permitido y no concede derechos sobre el código propietario de
+Nikaido.
+
+7. COMPONENTES DE TERCEROS
+El Software incluye o interactúa con componentes de terceros que conservan sus
+propias licencias y titulares. Este EULA no reduce los derechos que esas licencias
+concedan ni aumenta sus restricciones. Los avisos aplicables se encuentran en
+THIRD_PARTY_NOTICES.txt y THIRD_PARTY_LICENSES. Si existe conflicto respecto de
+un componente de terceros, prevalece la licencia de ese componente.
+
+8. ACTUALIZACIONES Y CAMBIOS
+El Titular puede publicar correcciones, actualizaciones, nuevas funciones o
+ediciones distintas. Una actualización puede requerir aceptar términos nuevos.
+No se garantiza que todas las funciones permanezcan disponibles para siempre ni
+que una versión antigua continúe siendo compatible con futuros sistemas.
+
+9. SERVICIOS, JUEGOS Y HARDWARE DE TERCEROS
+El Software no está afiliado, autorizado ni patrocinado por Sony Interactive
+Entertainment. “Sony”, “PlayStation” y “DualSense” pertenecen a sus respectivos
+titulares. El uso del Software con juegos, plataformas, controladores o servicios
+de terceros queda sujeto también a las reglas de esos terceros.
+
+10. TERMINACIÓN
+La licencia termina automáticamente si usted incumple este acuerdo. Al terminar,
+debe dejar de usar el Software y eliminar todas las copias bajo su control. Las
+secciones sobre propiedad, restricciones, terceros, garantías, responsabilidad y
+ley aplicable continuarán vigentes.
+
+11. AUSENCIA DE GARANTÍAS
+En la máxima medida permitida por la ley, el Software se proporciona “tal cual” y
+“según disponibilidad”, sin garantías expresas o implícitas. No se garantiza que
+esté libre de errores, que funcione con todo hardware o software ni que satisfaga
+una necesidad particular. Nada en este acuerdo elimina derechos irrenunciables
+del consumidor.
+
+12. LIMITACIÓN DE RESPONSABILIDAD
+En la máxima medida permitida por la ley, el Titular no responderá por daños
+indirectos, incidentales, especiales, pérdida de datos, pérdida de beneficios o
+interrupción de uso derivados del Software. Esta limitación no se aplica cuando
+la ley prohíba excluir o limitar esa responsabilidad.
+
+13. LEY APLICABLE
+Este acuerdo se rige por las leyes de los Estados Unidos Mexicanos, sin perjuicio
+de las normas obligatorias de protección al consumidor y de jurisdicción que
+resulten aplicables. Los tribunales competentes serán los determinados por la ley.
+
+14. ACUERDO COMPLETO Y SEPARABILIDAD
+Este EULA, junto con los términos del canal oficial y las licencias de terceros,
+constituye el acuerdo sobre el uso del Software. Si una disposición resulta
+inválida, las demás continuarán vigentes y la disposición se aplicará en la
+máxima medida legal posible.
+
+15. IDIOMA
+Este acuerdo puede proporcionarse en inglés y portugués de Brasil para comodidad.
+En caso de diferencia de interpretación, prevalece la versión en español, salvo
+que una norma obligatoria disponga otra cosa.
+
+Publicado bajo el nombre Nikaido. Todos los derechos reservados.
+© Team Nikaido

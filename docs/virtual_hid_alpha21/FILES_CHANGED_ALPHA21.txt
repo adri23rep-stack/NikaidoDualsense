@@ -1,0 +1,45 @@
+Nikaido DualSense 3.0.0 Alpha 2.1
+VS2026 Toolchain Compatibility
+
+Comparación: Alpha 2 inmutable -> Alpha 2.1
+Archivos modificados: 21
+Archivos añadidos: 10
+Archivos eliminados: 0
+
+MODIFICADOS
+BUILD_VHF_ALPHA2.bat
+CHECK_VHF_ALPHA2_ENVIRONMENT.bat
+INICIAR_VIRTUAL_DUALSENSE_LAB.bat
+README_VIRTUAL_DUALSENSE_LAB.md
+VIRTUAL_DUALSENSE_LAB_MANIFEST.json
+VIRTUAL_DUALSENSE_LAB_PROJECT.json
+native/vhf/NikaidoVirtualHid.sln
+native/vhf/README.md
+native/vhf/client/NikaidoVhfClient.vcxproj
+native/vhf/client/main.cpp
+native/vhf/driver/NikaidoVirtualHid.inf
+native/vhf/driver/NikaidoVirtualHid.vcxproj
+requirements-lab.txt
+tests/test_virtual_dualsense_lab_alpha1.py
+tests/test_virtual_hid_alpha2_source.py
+virtual_dualsense_lab/__init__.py
+virtual_dualsense_lab/cli.py
+virtual_dualsense_lab/diagnostics.py
+virtual_dualsense_lab/hid_report.py
+virtual_dualsense_lab/native.py
+virtual_dualsense_lab/version.py
+
+AÑADIDOS
+BUILD_VHF_ALPHA21.bat
+CHECK_VHF_ALPHA21_ENVIRONMENT.bat
+docs/virtual_hid_alpha21/DIAGNOSIS_AND_PLAN_ALPHA21.md
+docs/virtual_hid_alpha21/FILES_CHANGED_ALPHA21.txt
+docs/virtual_hid_alpha21/PRIVACY_AUDIT_ALPHA21.json
+docs/virtual_hid_alpha21/TOOLCHAIN_GATE_ALPHA21.md
+docs/virtual_hid_alpha21/VALIDATION_ALPHA21.md
+native/vhf/tools/RUN_VS2026_WDK_CHECK.bat
+native/vhf/tools/check_vs2026_wdk.py
+tests/test_vs2026_toolchain_alpha21.py
+
+ELIMINADOS
+Ninguno.

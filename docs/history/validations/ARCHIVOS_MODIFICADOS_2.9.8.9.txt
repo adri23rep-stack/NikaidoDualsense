@@ -1,0 +1,61 @@
+Nikaido DualSense 2.9.8.9 Beta 1
+Lista exacta frente a 2.9.8.8 Beta 1
+
+M  .nikaido_build/version_info.txt
+M  assets/rgb_icons/README.txt
+M  build.py
+M  build_protected.py
+A  docs/history/releases/RELEASE_2.9.8.9.md
+A  docs/history/validations/ARCHIVOS_MODIFICADOS_2.9.8.9.txt
+A  docs/history/validations/PRIVACY_AUDIT_2.9.8.9.json
+A  docs/history/validations/VALIDACION_2.9.8.9.md
+M  docs/PRIVACY_AUDITOR_2.md
+M  EULA_EN.txt
+M  EULA_ES.txt
+M  EULA_NIKAIDO.txt
+M  EULA_PT_BR.txt
+M  gui/components.py
+M  gui/i18n.py
+M  gui/light_studio.py
+M  gui/main_window.py
+M  gui/pages/device.py
+M  gui/pages/input.py
+M  gui/pages/macros.py
+M  gui/pages/profiles.py
+M  gui/pages/settings.py
+M  gui/pages/system.py
+M  gui/pages/triggers.py
+M  gui/profile_editor.py
+M  gui/profile_visuals.py
+M  gui/update_mixin.py
+M  INICIAR_NIKAIDO.bat
+M  install.bat
+M  installer/Nikaido.iss
+M  installer/NikaidoProtected.iss
+M  LICENSE
+M  main.py
+M  nikaido_version.py
+M  pyproject.toml
+M  README.md
+M  REPARAR_GUI_Y_AUDIO.bat
+M  SOURCE_MANIFEST.json
+M  src/connection_manager.py
+M  src/crash_reporting.py
+M  src/gyro_engine.py
+M  src/light_effects.py
+M  src/system_tray.py
+M  src/trigger_engine.py
+M  tests/test_first_run_polish_293.py
+M  tests/test_hotfix_2951_gui_audio_startup.py
+M  tests/test_hotfix_2953_runtime_bootstrap.py
+M  tests/test_hotfix_2985_profile_gallery_startup.py
+M  tests/test_onboarding_and_exit_231.py
+M  tests/test_proprietary_license_292.py
+M  tests/test_release_2970_privacy_rumble_updates.py
+M  tests/test_release_2980_battery_trigger_studio.py
+A  tests/test_stability_audit_2989.py
+M  tests/test_ui_architecture_260.py
+M  THIRD_PARTY_NOTICES.txt
+A  tools/check_runtime_dependencies.py
+
+Totales: 56 archivos; 50 modificados y 6 agregados; 0 eliminados.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{297B80AC-87F2-4A29-A3E6-399890AC8520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8F07D49D-1A26-475D-8EE0-29CFA8D550D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver Package">
+      <UniqueIdentifier>{AB80E43C-2F05-4379-A592-CA59F47F0142}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\nikaido_vhf_protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="NikaidoVirtualHid.inf">
+      <Filter>Driver Package</Filter>
+    </Inf>
+  </ItemGroup>
+</Project>
+

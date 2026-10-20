@@ -1,0 +1,33 @@
+Nikaido DualSense 3.0.0 Alpha 1 — Virtual DualSense Lab
+Comparación exacta frente a la base oficial 2.9.8.9
+
+Archivos originales modificados: 0
+Archivos originales eliminados: 0
+Archivos agregados: 24
+
+A  INICIAR_VIRTUAL_DUALSENSE_LAB.bat
+A  README_VIRTUAL_DUALSENSE_LAB.md
+A  VIRTUAL_DUALSENSE_LAB_MANIFEST.json
+A  VIRTUAL_DUALSENSE_LAB_PROJECT.json
+A  docs/virtual_dualsense_lab/ARCHITECTURE_ALPHA1.md
+A  docs/virtual_dualsense_lab/AUDIT_AND_DIAGNOSIS_ALPHA1.md
+A  docs/virtual_dualsense_lab/FILES_ADDED_ALPHA1.txt
+A  docs/virtual_dualsense_lab/NATIVE_PROTOTYPE_DECISION_ALPHA1.md
+A  docs/virtual_dualsense_lab/PRIVACY_AUDIT_ALPHA1.json
+A  docs/virtual_dualsense_lab/RISK_REGISTER_ALPHA1.md
+A  docs/virtual_dualsense_lab/VALIDATION_ALPHA1.md
+A  requirements-lab.txt
+A  tests/test_virtual_dualsense_lab_alpha1.py
+A  virtual_dualsense_lab/__init__.py
+A  virtual_dualsense_lab/__main__.py
+A  virtual_dualsense_lab/backend.py
+A  virtual_dualsense_lab/cli.py
+A  virtual_dualsense_lab/diagnostics.py
+A  virtual_dualsense_lab/hid_report.py
+A  virtual_dualsense_lab/lab.py
+A  virtual_dualsense_lab/model.py
+A  virtual_dualsense_lab/native.py
+A  virtual_dualsense_lab/simulated.py
+A  virtual_dualsense_lab/version.py
+
+© Team Nikaido

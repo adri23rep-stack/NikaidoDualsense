@@ -1,0 +1,24 @@
+NIKAIDO DUALSENSE 2.9.5.1 — HOTFIX GUI Y AUDIO
+================================================
+
+CAUSA GUI
+- gui.design_system no exportaba cuatro símbolos solicitados por gui.ui_common.
+- Símbolos restaurados: APPEARANCE_PRESETS, DEFAULT_APPEARANCE,
+  appearance_background_signature y appearance_style_signature.
+
+DEPENDENCIAS AUDIO
+- comtypes declarado explícitamente para Windows en requirements-runtime.txt.
+- install.bat verifica pycaw, comtypes y el import de gui.modern_app.
+- REPARAR_GUI_Y_AUDIO.bat incluido.
+
+PRUEBAS
+- Suite base: 381 passed, 1 skipped.
+- La prueba omitida requiere PySide6, ausente en el entorno base.
+- Suite hotfix con PySide6 6.11.1 temporal: 4 passed.
+- Ventana Qt creada y mostrada en modo offscreen: APROBADO.
+- Ruff: APROBADO.
+- compileall: APROBADO.
+- Contrato de exports de design_system: APROBADO.
+
+LIMITACIÓN
+- No se probó Core Audio ni un DualSense físico porque el entorno no es Windows.

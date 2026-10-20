@@ -1,0 +1,20 @@
+NIKAIDO DUALSENSE 2.9.6.1 — VALIDACIÓN AUDIO + HIDHIDE
+Fecha: 2026-07-13
+
+[OK] pytest: 407 pruebas aprobadas.
+[OMITIDA] 1 prueba visual de GUI: PySide6 no está instalado en este entorno Linux.
+[OK] Ruff: sin errores.
+[OK] compileall: todos los módulos Python compilaron.
+[OK] Bandit nivel alto: sin hallazgos.
+[OK] tools/nikaido_25_selftest.py: aprobado; versión 2.9.6.1.
+[OK] Mute: escritura verificada con GetMute y reintento de endpoint lento.
+[OK] Mute: endpoint sin volumen maestro conserva soporte de mute.
+[OK] HidHide: carpeta Program Files sin sufijo e.U detectada.
+[OK] HidHide: fallback del servicio se reporta como instalado.
+[OK] HidHide: .venv/Scripts/python.exe identificado como runtime permitido.
+[OK] HidHide: clave de máquina documentada bajo HKLM/Software/Classes probada.
+[OK] Diagnóstico de Audio/HidHide compila y es de solo lectura.
+
+Limitaciones de este entorno:
+- No hay Windows Core Audio real, DualSense físico, HidHide, ViGEm ni PySide6.
+- La validación definitiva del endpoint y del driver debe hacerse en Windows.

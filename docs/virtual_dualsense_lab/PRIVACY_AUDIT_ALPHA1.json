@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "product": "Nikaido DualSense",
+  "publisher": "Team Nikaido",
+  "copyright": "© Team Nikaido",
+  "version": "3.0.0-alpha.1",
+  "result": "passed",
+  "files_scanned": 436,
+  "new_files_scanned": 24,
+  "archives_scanned": 0,
+  "blocking_findings": 0,
+  "native_metadata_warnings": 0,
+  "private_names": 0,
+  "email_addresses": 0,
+  "windows_user_paths": 0,
+  "unix_home_paths": 0,
+  "hostnames": 0,
+  "device_instance_ids": 0,
+  "cache_files": 0,
+  "temporary_files": 0,
+  "findings": []
+}

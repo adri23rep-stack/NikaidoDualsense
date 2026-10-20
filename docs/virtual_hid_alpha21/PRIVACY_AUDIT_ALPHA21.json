@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "product": "Nikaido DualSense",
+  "publisher": "Team Nikaido",
+  "copyright": "© Team Nikaido",
+  "version": "3.0.0-alpha.2.1",
+  "status": "pass",
+  "actual_personal_names": 0,
+  "actual_email_addresses": 0,
+  "actual_windows_usernames": 0,
+  "actual_private_paths": 0,
+  "hostnames": 0,
+  "device_instance_ids": 0,
+  "notes": [
+    "Las rutas ExampleUser heredadas son fixtures sintéticos de pruebas de redacción.",
+    "El comprobador de toolchain conserva rutas solo en memoria y nunca las serializa.",
+    "No se incluyen logs de Windows proporcionados por el usuario."
+  ]
+}

@@ -1,0 +1,23 @@
+NIKAIDO DUALSENSE 2.5.4 — VALIDACIÓN
+=====================================
+
+Fecha de validación: 2026-07-12
+
+[OK] 228 pruebas automatizadas aprobadas
+[OK] python -m compileall -q .
+[OK] tools/nikaido_25_selftest.py
+[OK] Versión consistente: 2.5.4
+[OK] Cuenta regresiva de 5 segundos con cancelación
+[OK] Cuenta idempotente: los refrescos no reinician el contador
+[OK] Ctrl + M pausa y rearma sin borrar la configuración
+[OK] KeyBridge neutraliza el stick al liberar el mouse
+[OK] Mouse → Gyro conserva el gyro físico
+[OK] Overlay Qt estructuralmente incluido y compilable
+
+PENDIENTE DE PRUEBA FÍSICA EN WINDOWS
+- Visibilidad del overlay sobre el juego real
+- Ctrl + M global dentro del juego
+- Posición en configuraciones multimonitor
+- Comportamiento con juegos que usan pantalla completa exclusiva o anticheat
+
+El entorno de construcción no dispone de Windows gráfico, PySide6 ni un DualSense conectado.

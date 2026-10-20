@@ -1,0 +1,59 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=HIDClass
+ClassGuid={745A17A0-74D3-11D0-B6FE-00A0C90F57DA}
+Provider=%Publisher%
+DriverVer=07/23/2026,3.0.0.230
+CatalogFile=NikaidoVirtualHid.cat
+PnpLockdown=1
+
+[DestinationDirs]
+DriverCopyFiles=12
+
+[Manufacturer]
+%Publisher%=Standard,NTamd64
+
+[Standard.NTamd64]
+%DeviceDescription%=NikaidoVhf_Install,ROOT\NIKAIDO_VHF_ALPHA2
+
+[NikaidoVhf_Install.NT]
+CopyFiles=DriverCopyFiles
+
+[NikaidoVhf_Install.NT.HW]
+AddReg=NikaidoVhf_Install.NT.AddReg
+
+[NikaidoVhf_Install.NT.AddReg]
+HKR,,"LowerFilters",0x00010000,"vhf"
+HKR,,Security,,"D:P(A;;GA;;;SY)(A;;GA;;;BA)"
+HKR,,FriendlyName,,%DeviceDescription%
+
+[NikaidoVhf_Install.NT.Services]
+AddService=NikaidoVirtualHid,0x00000002,NikaidoVhf_Service
+
+[NikaidoVhf_Service]
+DisplayName=%ServiceDescription%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\NikaidoVirtualHid.sys
+
+[NikaidoVhf_Install.NT.Wdf]
+KmdfService=NikaidoVirtualHid,NikaidoVhf_Wdf
+
+[NikaidoVhf_Wdf]
+KmdfLibraryVersion=1.15
+
+[DriverCopyFiles]
+NikaidoVirtualHid.sys
+
+[SourceDisksFiles]
+NikaidoVirtualHid.sys=1
+
+[SourceDisksNames]
+1=%DiskName%
+
+[Strings]
+Publisher="Team Nikaido"
+DeviceDescription="Nikaido DualSense Virtual HID Lab Alpha 2.3.0"
+ServiceDescription="Nikaido DualSense Virtual HID Lab Service"
+DiskName="Nikaido DualSense Virtual HID Lab Source Package"

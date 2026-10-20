@@ -1,0 +1,23 @@
+NIKAIDO DUALSENSE 2.7.1 — VALIDACIÓN HOTFIX DE DESCONEXIÓN
+==========================================================
+
+[OK] Versión Python: 2.7.1
+[OK] Versión pyproject: 2.7.1
+[OK] Versión Inno Setup: 2.7.1
+[OK] Reportes HID congelados detectados por secuencia
+[OK] Fuente HID inválida no rejuvenece el estado anterior
+[OK] Timeout de desconexión: 1.5 segundos
+[OK] Estado del controlador neutralizado al desconectar
+[OK] Entradas virtuales liberadas
+[OK] Snapshot desconectado enviado inmediatamente a la UI
+[OK] Batería vieja eliminada de Dashboard y barra lateral
+[OK] Wizard puede regresar a estado de búsqueda
+[OK] 287 pruebas aprobadas
+[OK] compileall correcto para main.py, src, gui y tests
+
+PENDIENTE EN WINDOWS CON HARDWARE REAL
+--------------------------------------
+[ ] Desconexión USB
+[ ] Apagado/desconexión Bluetooth
+[ ] Reconexión automática posterior
+[ ] Comprobar que ViGEm no conserva entradas

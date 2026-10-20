@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "product": "Nikaido DualSense",
+  "publisher": "Team Nikaido",
+  "distribution_version": "3.0.0-alpha.2.3.4",
+  "distribution_release": "Alpha 2.3.4 Emulation & Integration Hub",
+  "application_version": "2.9.8.13",
+  "native_signing_lab_version": "3.0.0-alpha.2.3.0",
+  "base_distribution": "3.0.0-alpha.2.3.3",
+  "scope": [
+    "dynamic emulation mode selector",
+    "mode-aware controller visual",
+    "integrated KeyBridge summary and editor",
+    "emulation status strip",
+    "quick input, rumble, virtual reset and panic tools",
+    "preserve Low Profile and low-latency HID pump"
+  ],
+  "native_driver_changed": false,
+  "driver_installed_or_loaded": false,
+  "physical_controller_validation_required": true,
+  "windows_gui_validation_required": true
+}

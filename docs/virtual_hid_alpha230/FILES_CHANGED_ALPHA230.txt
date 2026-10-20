@@ -1,0 +1,81 @@
+Nikaido DualSense 3.0.0 Alpha 2.3.0
+Lista exacta frente a Alpha 2.2.3
+
+AÑADIDOS (14)
+BUILD_VHF_ALPHA230.bat
+CHECK_VHF_ALPHA230_SIGNING_READINESS.bat
+CREATE_VHF_ALPHA230_SUBMISSION_CAB.bat
+PREPARE_VHF_ALPHA230_PACKAGE.bat
+VERIFY_VHF_ALPHA230_MICROSOFT_RETURN.bat
+docs/virtual_hid_alpha230/DIAGNOSIS_AND_PLAN_ALPHA230.md
+docs/virtual_hid_alpha230/FILES_CHANGED_ALPHA230.txt
+docs/virtual_hid_alpha230/MICROSOFT_SIGNING_READINESS_ALPHA230.md
+docs/virtual_hid_alpha230/PRIVACY_AUDIT_ALPHA230.json
+docs/virtual_hid_alpha230/VALIDATION_ALPHA230.md
+native/vhf/tools/RUN_VHF_SIGNING_TOOL.bat
+native/vhf/tools/signing_readiness.py
+tests/test_driver_package_alpha230.py
+tests/test_signing_readiness_alpha230.py
+
+MODIFICADOS (46)
+BUILD_VHF_ALPHA2.bat
+BUILD_VHF_ALPHA21.bat
+BUILD_VHF_ALPHA211.bat
+BUILD_VHF_ALPHA212.bat
+BUILD_VHF_ALPHA213.bat
+BUILD_VHF_ALPHA214.bat
+BUILD_VHF_ALPHA215.bat
+BUILD_VHF_ALPHA22.bat
+BUILD_VHF_ALPHA221.bat
+BUILD_VHF_ALPHA222.bat
+BUILD_VHF_ALPHA223.bat
+CHECK_VHF_ALPHA211_ENVIRONMENT.bat
+CHECK_VHF_ALPHA212_ENVIRONMENT.bat
+CHECK_VHF_ALPHA213_ENVIRONMENT.bat
+CHECK_VHF_ALPHA214_ENVIRONMENT.bat
+CHECK_VHF_ALPHA215_ENVIRONMENT.bat
+CHECK_VHF_ALPHA21_ENVIRONMENT.bat
+CHECK_VHF_ALPHA221_ENVIRONMENT.bat
+CHECK_VHF_ALPHA222_ENVIRONMENT.bat
+CHECK_VHF_ALPHA223_ENVIRONMENT.bat
+CHECK_VHF_ALPHA22_ENVIRONMENT.bat
+CHECK_VHF_ALPHA2_ENVIRONMENT.bat
+INICIAR_VIRTUAL_DUALSENSE_LAB.bat
+PREPARE_VHF_ALPHA221_PACKAGE.bat
+PREPARE_VHF_ALPHA222_PACKAGE.bat
+PREPARE_VHF_ALPHA223_PACKAGE.bat
+PREPARE_VHF_ALPHA22_PACKAGE.bat
+README_VIRTUAL_DUALSENSE_LAB.md
+VIRTUAL_DUALSENSE_LAB_MANIFEST.json
+VIRTUAL_DUALSENSE_LAB_PROJECT.json
+native/vhf/README.md
+native/vhf/client/main.cpp
+native/vhf/driver/NikaidoVirtualHid.inf
+native/vhf/driver/NikaidoVirtualHid.vcxproj
+native/vhf/tools/check_vs2026_wdk.py
+native/vhf/tools/package_driver.py
+requirements-lab.txt
+tests/test_virtual_dualsense_lab_alpha1.py
+tests/test_virtual_hid_alpha2_source.py
+tests/test_vs2026_toolchain_alpha21.py
+virtual_dualsense_lab/__init__.py
+virtual_dualsense_lab/cli.py
+virtual_dualsense_lab/diagnostics.py
+virtual_dualsense_lab/hid_report.py
+virtual_dualsense_lab/native.py
+virtual_dualsense_lab/version.py
+
+ELIMINADOS (1)
+tests/test_driver_package_alpha223.py
+
+La prueba eliminada no perdió cobertura: fue sustituida y ampliada por
+tests/test_driver_package_alpha230.py para la nueva versión.
+
+No se modificaron:
+- native/vhf/driver/driver.c
+- native/vhf/shared/nikaido_vhf_protocol.h
+- SOURCE_MANIFEST.json
+
+Producto: Nikaido DualSense
+Publisher: Team Nikaido
+Copyright: © Team Nikaido

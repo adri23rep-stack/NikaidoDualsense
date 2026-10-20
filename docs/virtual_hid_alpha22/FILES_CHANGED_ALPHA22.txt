@@ -1,0 +1,60 @@
+Nikaido DualSense 3.0.0 Alpha 2.2
+Driver Package Readiness
+
+Comparación: Alpha 2.1.5 inmutable -> Alpha 2.2
+SHA-256 de Alpha 2.1.5: 57eee739ab9069ccb950f5895116f41c4f75efc887cf7d5821efb2558bb1b292
+
+M  BUILD_VHF_ALPHA2.bat
+M  BUILD_VHF_ALPHA21.bat
+M  BUILD_VHF_ALPHA211.bat
+M  BUILD_VHF_ALPHA212.bat
+M  BUILD_VHF_ALPHA213.bat
+M  BUILD_VHF_ALPHA214.bat
+M  BUILD_VHF_ALPHA215.bat
+A  BUILD_VHF_ALPHA22.bat
+M  CHECK_VHF_ALPHA211_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA212_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA213_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA214_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA215_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA21_ENVIRONMENT.bat
+A  CHECK_VHF_ALPHA22_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA2_ENVIRONMENT.bat
+M  INICIAR_VIRTUAL_DUALSENSE_LAB.bat
+A  PREPARE_VHF_ALPHA22_PACKAGE.bat
+M  README_VIRTUAL_DUALSENSE_LAB.md
+M  VIRTUAL_DUALSENSE_LAB_MANIFEST.json
+M  VIRTUAL_DUALSENSE_LAB_PROJECT.json
+A  docs/virtual_hid_alpha22/DIAGNOSIS_AND_PLAN_ALPHA22.md
+A  docs/virtual_hid_alpha22/FILES_CHANGED_ALPHA22.txt
+A  docs/virtual_hid_alpha22/PACKAGE_READINESS_ALPHA22.md
+A  docs/virtual_hid_alpha22/PRIVACY_AUDIT_ALPHA22.json
+A  docs/virtual_hid_alpha22/VALIDATION_ALPHA22.md
+M  native/vhf/README.md
+M  native/vhf/client/main.cpp
+M  native/vhf/driver/NikaidoVirtualHid.inf
+A  native/vhf/tools/RUN_VHF_PACKAGE_TOOL.bat
+M  native/vhf/tools/check_vs2026_wdk.py
+A  native/vhf/tools/package_driver.py
+M  requirements-lab.txt
+A  tests/test_driver_package_alpha22.py
+M  tests/test_virtual_dualsense_lab_alpha1.py
+M  tests/test_virtual_hid_alpha2_source.py
+M  tests/test_vs2026_toolchain_alpha21.py
+M  virtual_dualsense_lab/__init__.py
+M  virtual_dualsense_lab/cli.py
+M  virtual_dualsense_lab/diagnostics.py
+M  virtual_dualsense_lab/hid_report.py
+M  virtual_dualsense_lab/native.py
+M  virtual_dualsense_lab/version.py
+
+Totales: 11 archivos añadidos, 32 modificados, 0 eliminados.
+
+No se modificó `native/vhf/driver/driver.c`. El cambio funcional se limita al
+diagnóstico y la preparación explícita de un paquete INF/SYS/CAT sin firma.
+Firma, instalación, carga, creación de dispositivo y cambios de seguridad
+siguen bloqueados.
+
+Producto: Nikaido DualSense
+Publisher: Team Nikaido
+Copyright: © Team Nikaido

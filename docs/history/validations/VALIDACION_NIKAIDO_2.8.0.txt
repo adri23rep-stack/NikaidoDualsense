@@ -1,0 +1,25 @@
+NIKAIDO DUALSENSE 2.8.0 — VALIDACIÓN ASISTENTE GLOBAL
+=====================================================
+
+[OK] Versión Python: 2.8.0
+[OK] Versión pyproject: 2.8.0
+[OK] Versión Inno Setup: 2.8.0
+[OK] Onboarding actualizado a versión 4
+[OK] Pregunta de asistente al terminar el wizard
+[OK] Pregunta de asistente al omitir el wizard
+[OK] Estado feliz al aceptar
+[OK] Estado triste/preocupado al rechazar
+[OK] Preferencia persistente assistant.enabled
+[OK] Consejos globales con accesos directos
+[OK] Interruptores disponibles en Ajustes
+[OK] Sprites compactos cargados a tamaño reducido
+[OK] Recursos liberados al desactivar o cerrar
+[OK] 296 pruebas aprobadas
+[OK] compileall correcto
+
+PENDIENTE EN WINDOWS
+--------------------
+[ ] Revisar escala del diálogo de elección a 100%, 125% y 150%
+[ ] Confirmar posición del aviso en distintas resoluciones
+[ ] Confirmar que el aviso no tape controles importantes
+[ ] Medir RAM con la asistente activa y desactivada

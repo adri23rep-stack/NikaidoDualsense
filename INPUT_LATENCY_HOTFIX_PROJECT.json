@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "product": "Nikaido DualSense",
+  "publisher": "Team Nikaido",
+  "distribution_version": "3.0.0-alpha.2.3.1",
+  "distribution_release": "Alpha 2.3.1 Input Latency Hotfix",
+  "application_version": "2.9.8.10",
+  "native_signing_lab_version": "3.0.0-alpha.2.3.0",
+  "base_archive": "Nikaido_DualSense-3.0.0-Alpha2.3.0-Microsoft-Signing-Readiness.zip",
+  "scope": [
+    "physical DualSense input scheduling",
+    "realtime callback and ViGEm pipeline",
+    "disconnect neutralization",
+    "diagnostic latency metrics"
+  ],
+  "native_driver_changed": false,
+  "driver_installed_or_loaded": false,
+  "physical_controller_validation_required": true
+}

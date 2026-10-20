@@ -1,0 +1,11 @@
+NIKAIDO DUALSENSE 2.9.6.3 — VALIDACIÓN BOTÓN MIC / TECLA WINDOWS
+
+[OK] Compilación sintáctica de src, gui y main.py.
+[OK] 415 pruebas aprobadas.
+[SKIP] 1 prueba de GUI: PySide6 no está instalado en el entorno Linux.
+[OK] El botón físico usa la orden de teclado únicamente en "Todos los micrófonos".
+[OK] Los toggles desde GUI/API no emiten la tecla de Windows.
+[OK] "Todos excepto DualSense" mantiene la ruta directa y el micrófono interno activo.
+[OK] El estado original se captura antes de que la orden de teclado pueda cambiar el endpoint predeterminado.
+[OK] Existe ruta de respaldo cuando Core Audio no inicia; el LED MIC sigue respondiendo.
+[PENDIENTE WINDOWS] Compilar Nikaido.exe y confirmar la recepción real de WM_APPCOMMAND en Windows 11.

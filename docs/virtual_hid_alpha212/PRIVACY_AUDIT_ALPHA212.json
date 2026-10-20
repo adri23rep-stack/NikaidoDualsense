@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "product": "Nikaido DualSense",
+  "publisher": "Team Nikaido",
+  "copyright": "© Team Nikaido",
+  "version": "3.0.0-alpha.2.1.2",
+  "status": "pass",
+  "files_scanned": 480,
+  "blocking_findings": 0,
+  "warnings": 0,
+  "actual_personal_names": 0,
+  "actual_email_addresses": 0,
+  "actual_windows_usernames": 0,
+  "actual_private_paths": 0,
+  "hostnames": 0,
+  "device_instance_ids": 0,
+  "notes": [
+    "La evidencia se documenta con rutas relativas del WDK, nunca con la ruta personal de la consola.",
+    "No se incorporan listas del registro ni logs proporcionados por el usuario.",
+    "Los informes del gate conservan versiones y nombres lógicos, no rutas absolutas."
+  ]
+}

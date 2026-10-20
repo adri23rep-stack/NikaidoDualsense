@@ -1,0 +1,11 @@
+pydualsense>=0.7.5,<1
+vgamepad==0.1.0; platform_system == "Windows"
+pywin32>=306,<400; platform_system == "Windows"
+pycaw==20251023; platform_system == "Windows"
+comtypes>=1.4.10,<2; platform_system == "Windows"
+PySide6>=6.8.3,<6.9
+pillow>=12.2.0,<13
+pystray>=0.19.4,<1
+hidapi>=0.14.0,<1
+hidapi-usb==0.3.2
+psutil>=5.9.0,<8

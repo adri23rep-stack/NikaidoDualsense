@@ -1,0 +1,16 @@
+NIKAIDO DUALSENSE 2.5.5 — VALIDACIÓN
+
+[OK] 232 pruebas automatizadas aprobadas
+[OK] Compilación Python completa con compileall
+[OK] Ctrl + M reactiva Mouse → Stick inmediatamente
+[OK] Ctrl + M reactiva Mouse → Gyro inmediatamente
+[OK] La activación manual conserva la cuenta inicial de 5 segundos
+[OK] La reactivación no inicia start_delayed
+[OK] Overlay con WindowTransparentForInput
+[OK] Overlay e hijos con WA_TransparentForMouseEvents
+[OK] Refuerzo Windows con WS_EX_TRANSPARENT y WS_EX_NOACTIVATE
+[OK] Hit-test nativo responde HTTRANSPARENT
+[OK] Versión consistente: 2.5.5
+
+[NO EJECUTADO] Auto-prueba HID: el entorno no tiene hidapi/PySide6 ni Windows gráfico
+[PENDIENTE FÍSICO] Confirmar click-through encima de un juego en Windows

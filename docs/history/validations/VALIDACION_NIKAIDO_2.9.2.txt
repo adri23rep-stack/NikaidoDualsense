@@ -1,0 +1,18 @@
+NIKAIDO DUALSENSE 2.9.2 — VALIDACIÓN DE LICENCIA PROPIETARIA
+
+[OK] Versión unificada: 2.9.2
+[OK] LICENSE reemplazado por aviso propietario
+[OK] Titular público: Team Nikaido, sin afirmar registro mercantil o de marca
+[OK] EULA en español, inglés y portugués de Brasil
+[OK] EULA trilingüe conectado al instalador Inno Setup
+[OK] Restricción de redistribución, reventa, modificación y extracción de recursos
+[OK] Condiciones generales diferenciadas para Demo y edición Completa
+[OK] Excepción para derechos obligatorios y licencias de terceros
+[OK] THIRD_PARTY_NOTICES y recopilador de licencias para builds
+[OK] Copyright incorporado a metadatos del ejecutable y del instalador
+[OK] README y pyproject actualizados a licencia propietaria
+[OK] SOURCE_MANIFEST regenerado con rutas, tamaños y SHA-256
+[OK] Compilación sintáctica completa
+[OK] 306 pruebas automatizadas aprobadas
+
+NOTA: El EULA es un borrador técnico y debe recibir revisión jurídica antes de la primera venta pública.

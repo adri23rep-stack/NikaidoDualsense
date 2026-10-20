@@ -1,0 +1,22 @@
+NIKAIDO DUALSENSE 2.9.6.4 — VALIDACIÓN RUTAS CORTAS / MONITOR REAL
+
+RESULTADO
+- 422 pruebas aprobadas
+- Pruebas Qt ejecutadas con PySide6 6.8.3 en modo offscreen
+- compileall: correcto
+
+RUNTIME
+- Instalación fuera del proyecto: %LOCALAPPDATA%\NKB\rt
+- Temporales de pip: %LOCALAPPDATA%\NKB\tmp
+- PySide6: >=6.8.3,<6.9
+- main.py prioriza runtime corto y conserva fallback a .venv antigua
+- HidHide acepta solo Nikaido.exe o Python administrado por Nikaido
+
+DASHBOARD
+- HID físico: device_report_hz
+- Ruta p95: pipeline_p95_ms
+- Control virtual: virtual_hz
+- Fallos: read_failures
+- CPU: proceso Nikaido
+- Gráfica: LatencyGraph.add_value(pipeline_p95_ms)
+- Eliminadas estimaciones fps*4 y 1000/fps

@@ -1,0 +1,22 @@
+Nikaido DualSense 3.0.0 Alpha 2.3.2 — Low-Latency HID Pump
+
+Modificados:
+- src/connection_manager.py
+- nikaido_version.py
+- pyproject.toml
+- .nikaido_build/version_info.txt
+- installer/Nikaido.iss
+- installer/NikaidoProtected.iss
+- README.md
+- VIRTUAL_DUALSENSE_LAB_PROJECT.json
+- VIRTUAL_DUALSENSE_LAB_MANIFEST.json
+- SOURCE_MANIFEST.json
+- pruebas con expectativas de versión
+
+Añadidos:
+- LOW_LATENCY_HID_PUMP_PROJECT.json
+- tests/test_low_latency_hid_pump_alpha232.py
+- docs/low_latency_hid_pump_alpha232/DIAGNOSIS_AND_CHANGES.md
+- docs/low_latency_hid_pump_alpha232/TEST_GUIDE_WINDOWS.md
+- docs/low_latency_hid_pump_alpha232/VALIDATION.md
+- docs/low_latency_hid_pump_alpha232/FILES_CHANGED.txt

@@ -1,0 +1,26 @@
+NIKAIDO DUALSENSE 2.7.0 — VALIDACIÓN MASCOT WIZARD FOUNDATION
+=============================================================
+
+[OK] Versión Python: 2.7.0
+[OK] Versión pyproject: 2.7.0
+[OK] Versión Inno Setup: 2.7.0
+[OK] Onboarding actualizado a versión 3
+[OK] MascotPanel reutilizable integrado
+[OK] 6 escenas contextuales dentro del wizard
+[OK] Estado de conexión y batería en vivo
+[OK] Acción manual "Buscar ahora"
+[OK] 10 sprites de cuerpo completo incluidos
+[OK] 10 sprites compactos incluidos
+[OK] 20/20 PNG con transparencia RGBA real
+[OK] Recursos incluidos por la ruta general assets de PyInstaller
+[OK] 282 pruebas aprobadas
+[OK] Compilación de fuentes correcta
+[OK] Límites de módulos respetados
+
+PENDIENTE EN WINDOWS
+--------------------
+[ ] Apertura real con PySide6
+[ ] Escala DPI 100%, 125% y 150%
+[ ] Prueba USB y Bluetooth durante el wizard
+[ ] Compilación PyInstaller/Inno Setup
+[ ] Confirmar sprites dentro de la aplicación instalada

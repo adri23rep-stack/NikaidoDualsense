@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "product": "Nikaido DualSense",
+  "publisher": "Team Nikaido",
+  "copyright": "© Team Nikaido",
+  "version": "3.0.0-alpha.2.1.3",
+  "status": "pass",
+  "files_scanned": 487,
+  "blocking_findings": 0,
+  "warnings": 0,
+  "actual_personal_names": 0,
+  "actual_email_addresses": 0,
+  "actual_windows_usernames": 0,
+  "actual_private_paths": 0,
+  "hostnames": 0,
+  "device_instance_ids": 0,
+  "notes": [
+    "No se incorporan rutas personales ni el log completo proporcionado por el usuario.",
+    "La evidencia de Windows se resume con nombres lógicos, versiones y códigos de error.",
+    "Las rutas de ejemplo históricas usan exclusivamente marcadores genéricos.",
+    "El ZIP se revisa por separado después de generarlo."
+  ]
+}

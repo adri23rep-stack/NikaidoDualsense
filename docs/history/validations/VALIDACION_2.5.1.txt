@@ -1,0 +1,16 @@
+Nikaido DualSense 2.5.1
+=======================
+
+Compilación Python: OK
+Pruebas automatizadas: 211 passed
+Auto-prueba 2.5: OK
+
+Hotfixes:
+- Wizard página 5 / AppearancePreview: corregido
+- Nexus Guardar acción / validation QLabel: corregido
+- Tiempos Nexus siempre editables: corregido
+
+Pendiente de confirmación física:
+- Apertura visual en Windows con PySide6
+- Guardado de una acción desde Nexus
+- Recorrido completo del wizard

@@ -1,0 +1,20 @@
+NIKAIDO DUALSENSE 2.9.4 — VALIDACIÓN AUTOMÁTICA
+
+Fecha: 2026-07-13
+Resultado:
+- pytest: 360 pruebas aprobadas
+- ruff: aprobado
+- compileall: aprobado
+- git diff --check: aprobado
+- fuzz de configuración: 25,000 casos x 9 normalizadores, 0 caídas
+- DS4_REPORT_EX: aprobado
+- auto-prueba general de perfiles/rumble/mouse: aprobada
+- temas de interfaz: 10/10 aprobadas
+- touchpad multizona: aprobado
+- Bandit: 0 graves, 0 medios, 43 avisos bajos revisados
+
+No ejecutado en este entorno:
+- Prueba física en Windows con DualSense USB/Bluetooth
+- ViGEm/HidHide/Raw Input reales
+- Ventana gráfica completa (PySide6 no disponible)
+- Compilación e instalador Windows

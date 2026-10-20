@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "product": "Nikaido DualSense",
+  "publisher": "Team Nikaido",
+  "distribution_version": "3.0.0-alpha.2.3.3",
+  "distribution_release": "Alpha 2.3.3 Low Profile Prototype",
+  "application_version": "2.9.8.12",
+  "native_signing_lab_version": "3.0.0-alpha.2.3.0",
+  "base_distribution": "3.0.0-alpha.2.3.2",
+  "scope": [
+    "destroy and rebuild Qt interface without restarting backends",
+    "persistent tray lifecycle bridge",
+    "visual timer and widget cleanup",
+    "Qt pixmap cache release and Python garbage collection",
+    "Low Profile tray status and manual activation",
+    "Low Profile settings and dashboard quick toggle"
+  ],
+  "native_driver_changed": false,
+  "driver_installed_or_loaded": false,
+  "physical_controller_validation_required": true,
+  "windows_gui_validation_required": true
+}

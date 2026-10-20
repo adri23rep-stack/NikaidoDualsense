@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "product": "Nikaido DualSense",
+  "publisher": "Team Nikaido",
+  "distribution_version": "3.0.0-alpha.2.3.2",
+  "distribution_release": "Alpha 2.3.2 Low-Latency HID Pump",
+  "application_version": "2.9.8.11",
+  "native_signing_lab_version": "3.0.0-alpha.2.3.0",
+  "base_distribution": "3.0.0-alpha.2.3.1",
+  "scope": [
+    "pydualsense input pump replacement",
+    "raw HID snapshot publication",
+    "dedicated physical output thread",
+    "physical output write rate limiting",
+    "event-driven virtual input wakeup",
+    "HID pump diagnostics"
+  ],
+  "native_driver_changed": false,
+  "driver_installed_or_loaded": false,
+  "physical_controller_validation_required": true
+}

@@ -1,0 +1,19 @@
+Nikaido DualSense 3.0.0 Alpha 2.3.1 — Input Latency Hotfix
+
+Modificados:
+- src/connection_manager.py
+- nikaido_version.py
+- pyproject.toml
+- .nikaido_build/version_info.txt
+- installer/Nikaido.iss
+- installer/NikaidoProtected.iss
+- README.md
+- pruebas con expectativas de versión
+
+Añadidos:
+- INPUT_LATENCY_HOTFIX_PROJECT.json
+- tests/test_input_latency_hotfix_alpha230.py
+- docs/input_latency_hotfix_alpha231/DIAGNOSIS_AND_CHANGES.md
+- docs/input_latency_hotfix_alpha231/VALIDATION.md
+- docs/input_latency_hotfix_alpha231/TEST_GUIDE_WINDOWS.md
+- docs/input_latency_hotfix_alpha231/FILES_CHANGED.txt

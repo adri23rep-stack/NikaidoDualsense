@@ -1,0 +1,2 @@
+# Microsoft Signing Readiness Alpha 2.3.0 usa exclusivamente la biblioteca estándar de
+# Python 3.10 o superior. No instala ni incluye drivers.

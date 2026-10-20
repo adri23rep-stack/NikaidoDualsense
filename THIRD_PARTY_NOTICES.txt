@@ -1,0 +1,36 @@
+NIKAIDO DUALSENSE — THIRD-PARTY NOTICES
+
+© Team Nikaido
+Nikaido’s original code and assets are proprietary. Third-party components are
+NOT relicensed under the Nikaido proprietary license and remain governed by
+their respective copyright notices and license terms.
+
+The runtime may include or interact with packages such as:
+
+- PySide6 and Qt
+- pydualsense
+- vgamepad and ViGEm components
+- pywin32
+- pycaw and comtypes (Windows Core Audio microphone control)
+- Pillow
+- pystray
+- HIDAPI / hidapi / hidapi-usb
+- psutil
+- Python and the PyInstaller bootloader/runtime
+- Landsat Wallpapers by Leonardo Uieda (CC0 1.0; Landsat data in the public domain), bundled in assets/wallpapers
+
+This list is informational and may change between builds. The build process
+collects license, copying, and notice files exposed by installed distributions
+into the THIRD_PARTY_LICENSES directory whenever available.
+
+Nothing in the Nikaido EULA removes permissions granted by a third-party license
+or imposes Nikaido’s no-redistribution restriction on a third-party component by
+itself. Conversely, a third-party license does not grant permission to copy or
+redistribute Nikaido’s proprietary code, artwork, characters, or compiled product
+as a whole except where that license or mandatory law expressly requires it.
+
+Before any commercial release, review the generated THIRD_PARTY_LICENSES folder
+and confirm that every bundled native library and Python distribution has its
+required notice and license text. PySide6/Qt compliance deserves particular
+attention because the selected Qt license and deployment method determine the
+obligations for the final build.

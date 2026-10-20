@@ -1,0 +1,25 @@
+NIKAIDO DUALSENSE 2.9.3 — VALIDACIÓN
+=====================================
+
+RESULTADO: APROBADO A NIVEL DE CÓDIGO Y PRUEBAS AUTOMATIZADAS
+
+Pruebas:
+- 327 passed
+- 0 failed
+
+Comprobaciones:
+[OK] Python compileall sin errores.
+[OK] Estado de batería desconocido separado de 0 % real.
+[OK] Dashboard usa medidor estable y diseño en cuadrícula.
+[OK] Primer paso de idioma obligatorio en configuración nueva.
+[OK] Selector grande para Español, English y Português (Brasil).
+[OK] Cambio de idioma conservado en Ajustes.
+[OK] Documentación histórica fuera de la raíz.
+[OK] Nombre legal solamente en la última línea de licencias visibles.
+[OK] Versión unificada en 2.9.3.
+[OK] Pipeline protegido y reparación ViGEm conservados.
+
+Pendiente de validación física en Windows:
+- Primer reporte de batería con DualSense USB y Bluetooth.
+- Escala de la tarjeta de batería con diferentes DPI/resoluciones.
+- Compilación Nuitka y creación del instalador protegido.

@@ -1,0 +1,50 @@
+Nikaido DualSense 3.0.0 Alpha 2.1.5
+Client Diagnostics Fix
+
+Comparación: Alpha 2.1.4 inmutable -> Alpha 2.1.5
+SHA-256 de Alpha 2.1.4: a54dc618d60d6b603e4c5c39649a91c8e9960816daf1c12b1d72e81bd1b46f49
+
+A  BUILD_VHF_ALPHA215.bat
+A  CHECK_VHF_ALPHA215_ENVIRONMENT.bat
+A  docs/virtual_hid_alpha215/CLIENT_DIAGNOSTICS_ALPHA215.md
+A  docs/virtual_hid_alpha215/DIAGNOSIS_AND_PLAN_ALPHA215.md
+A  docs/virtual_hid_alpha215/FILES_CHANGED_ALPHA215.txt
+A  docs/virtual_hid_alpha215/PRIVACY_AUDIT_ALPHA215.json
+A  docs/virtual_hid_alpha215/VALIDATION_ALPHA215.md
+M  BUILD_VHF_ALPHA21.bat
+M  BUILD_VHF_ALPHA211.bat
+M  BUILD_VHF_ALPHA212.bat
+M  BUILD_VHF_ALPHA213.bat
+M  BUILD_VHF_ALPHA214.bat
+M  CHECK_VHF_ALPHA21_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA211_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA212_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA213_ENVIRONMENT.bat
+M  CHECK_VHF_ALPHA214_ENVIRONMENT.bat
+M  INICIAR_VIRTUAL_DUALSENSE_LAB.bat
+M  README_VIRTUAL_DUALSENSE_LAB.md
+M  VIRTUAL_DUALSENSE_LAB_MANIFEST.json
+M  VIRTUAL_DUALSENSE_LAB_PROJECT.json
+M  native/vhf/README.md
+M  native/vhf/client/main.cpp
+M  native/vhf/driver/NikaidoVirtualHid.inf
+M  native/vhf/tools/check_vs2026_wdk.py
+M  requirements-lab.txt
+M  tests/test_virtual_dualsense_lab_alpha1.py
+M  tests/test_virtual_hid_alpha2_source.py
+M  tests/test_vs2026_toolchain_alpha21.py
+M  virtual_dualsense_lab/__init__.py
+M  virtual_dualsense_lab/cli.py
+M  virtual_dualsense_lab/diagnostics.py
+M  virtual_dualsense_lab/hid_report.py
+M  virtual_dualsense_lab/native.py
+M  virtual_dualsense_lab/version.py
+
+No se eliminó ningún archivo ni se cambió `native/vhf/driver/driver.c`.
+El cambio funcional se limita a preservar errores Win32 y producir salida
+Unicode robusta en el cliente diagnóstico. Firma, instalación y carga siguen
+bloqueadas.
+
+Producto: Nikaido DualSense
+Publisher: Team Nikaido
+Copyright: © Team Nikaido

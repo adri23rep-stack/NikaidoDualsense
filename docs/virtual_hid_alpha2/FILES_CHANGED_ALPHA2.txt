@@ -1,0 +1,40 @@
+Nikaido DualSense 3.0.0 Alpha 2
+Archivos cambiados respecto al ZIP inmutable de Alpha 1
+
+MODIFICADOS (12)
+INICIAR_VIRTUAL_DUALSENSE_LAB.bat
+README_VIRTUAL_DUALSENSE_LAB.md
+VIRTUAL_DUALSENSE_LAB_MANIFEST.json
+VIRTUAL_DUALSENSE_LAB_PROJECT.json
+requirements-lab.txt
+tests/test_virtual_dualsense_lab_alpha1.py
+virtual_dualsense_lab/__init__.py
+virtual_dualsense_lab/cli.py
+virtual_dualsense_lab/diagnostics.py
+virtual_dualsense_lab/hid_report.py
+virtual_dualsense_lab/native.py
+virtual_dualsense_lab/version.py
+
+AGREGADOS (20)
+BUILD_VHF_ALPHA2.bat
+CHECK_VHF_ALPHA2_ENVIRONMENT.bat
+docs/virtual_hid_alpha2/ARCHITECTURE_ALPHA2.md
+docs/virtual_hid_alpha2/BUILD_AND_SIGNING_GATE_ALPHA2.md
+docs/virtual_hid_alpha2/DIAGNOSIS_AND_PLAN_ALPHA2.md
+docs/virtual_hid_alpha2/FILES_CHANGED_ALPHA2.txt
+docs/virtual_hid_alpha2/PRIVACY_AUDIT_ALPHA2.json
+docs/virtual_hid_alpha2/RISK_REGISTER_ALPHA2.md
+docs/virtual_hid_alpha2/VALIDATION_ALPHA2.md
+native/vhf/NikaidoVirtualHid.sln
+native/vhf/README.md
+native/vhf/client/NikaidoVhfClient.vcxproj
+native/vhf/client/NikaidoVhfClient.vcxproj.filters
+native/vhf/client/main.cpp
+native/vhf/driver/NikaidoVirtualHid.inf
+native/vhf/driver/NikaidoVirtualHid.vcxproj
+native/vhf/driver/NikaidoVirtualHid.vcxproj.filters
+native/vhf/driver/driver.c
+native/vhf/shared/nikaido_vhf_protocol.h
+tests/test_virtual_hid_alpha2_source.py
+
+TOTAL: 32 archivos; ningún archivo original de la base estable fue modificado.

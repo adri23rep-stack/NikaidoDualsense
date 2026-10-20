@@ -1,0 +1,26 @@
+NIKAIDO DUALSENSE 2.7.2 — VALIDACIÓN DE MEMORIA
+================================================
+
+[OK] Versión Python: 2.7.2
+[OK] Versión pyproject: 2.7.2
+[OK] Versión Inno Setup: 2.7.2
+[OK] Wizard marcado para destrucción al cerrar
+[OK] Recursos de mascota y fondo liberados explícitamente
+[OK] Misma pose no se decodifica repetidamente
+[OK] Temporizador de conexión activo solo en su paso
+[OK] Fondos y miniaturas usan decodificación limitada
+[OK] Páginas grandes importadas bajo demanda
+[OK] Caché QPixmap limitado a 8 MB
+[OK] Historial pasivo de diagnóstico: 10 s a 60 Hz
+[OK] Hotfix de desconexión 2.7.1 conservado
+[OK] 292 pruebas aprobadas
+[OK] compileall correcto
+
+PRUEBA PENDIENTE EN WINDOWS
+---------------------------
+[ ] Medir RAM al iniciar antes del wizard
+[ ] Medir RAM con el wizard abierto
+[ ] Cerrar el wizard y esperar 5-10 segundos
+[ ] Abrir Dashboard, Perfiles, Nexus y Emulación
+[ ] Confirmar que no aumenta continuamente al cambiar de pose o página
+[ ] Probar fondo personalizado 4K y varias imágenes de perfil

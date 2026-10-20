@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "product": "Nikaido DualSense",
+  "result": "passed",
+  "files_scanned": 549,
+  "archives_scanned": 0,
+  "blocking_findings": 0,
+  "native_metadata_warnings": 0,
+  "strict_third_party": false,
+  "policy": {
+    "environment_terms": "blocking",
+    "owned_file_user_paths": "blocking",
+    "foreign_native_build_metadata": "warning",
+    "values_redacted": true
+  },
+  "findings": []
+}

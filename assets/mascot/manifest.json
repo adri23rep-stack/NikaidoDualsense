@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "license": "User-provided project artwork",
+  "poses_a": {
+    "point_right": "assets/mascot/poses_a/point_right.png",
+    "point_left": "assets/mascot/poses_a/point_left.png",
+    "worried": "assets/mascot/poses_a/worried.png",
+    "celebrating": "assets/mascot/poses_a/celebrating.png",
+    "sleeping": "assets/mascot/poses_a/sleeping.png",
+    "happy": "assets/mascot/poses_a/happy.png",
+    "present_left": "assets/mascot/poses_a/present_left.png",
+    "neutral": "assets/mascot/poses_a/neutral.png",
+    "thinking": "assets/mascot/poses_a/thinking.png",
+    "greeting": "assets/mascot/poses_a/greeting.png"
+  },
+  "poses_b": {
+    "update": "assets/mascot/poses_b/update.png",
+    "battery_low": "assets/mascot/poses_b/battery_low.png",
+    "connecting": "assets/mascot/poses_b/connecting.png",
+    "error_critical": "assets/mascot/poses_b/error_critical.png",
+    "error_mild": "assets/mascot/poses_b/error_mild.png",
+    "explaining": "assets/mascot/poses_b/explaining.png",
+    "happy": "assets/mascot/poses_b/happy.png",
+    "idle": "assets/mascot/poses_b/idle.png",
+    "neutral": "assets/mascot/poses_b/neutral.png",
+    "thinking": "assets/mascot/poses_b/thinking.png"
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.spec
+.venv/
+venv/
+*.log
+.nikaido_build/
+release/
